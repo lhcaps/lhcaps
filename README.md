@@ -1,46 +1,57 @@
 <div align="center">
 
-# Hi, I'm Huy Le
+# Hi, I'm Huy.
 
-**I like building practical software: web apps, computer vision tools, local AI experiments, and automation systems.**
+**I build practical software around full-stack apps, computer vision, local AI, and automation.**
+
+Not everything here is perfect yet — but every serious repo is me trying to build something real, learn the hard parts, and make the next version cleaner.
 
 [![GitHub](https://img.shields.io/badge/GitHub-lhcaps-181717?style=for-the-badge\&logo=github)](https://github.com/lhcaps)
-[![Focus](https://img.shields.io/badge/Building-Full--stack%20%7C%20AI%20Tools%20%7C%20Computer%20Vision-blue?style=for-the-badge)](#)
+[![Building](https://img.shields.io/badge/Building-Full--stack%20%7C%20AI%20%7C%20Computer%20Vision-blue?style=for-the-badge)](#)
 
 </div>
 
 ---
 
-## About me
+## What I am about
 
-I'm a developer who enjoys turning messy ideas into things that actually run.
+I like building projects that are more than just tutorial clones.
 
-Most of my projects sit somewhere between **full-stack development**, **computer vision**, **local AI**, and **automation**. I care about making projects easy to understand: clean setup, readable structure, clear docs, and enough polish that someone else can open the repo and know what is going on.
+My favorite kind of project has a real workflow behind it: a UI people can use, an API that makes sense, a database with actual structure, background jobs, docs, logs, failure states, and enough polish that another developer can open the repo and understand the idea.
+
+Right now, I am mostly working around:
 
 ```txt
-What I care about: useful products, clean architecture, readable code, and honest documentation.
+Full-stack systems       React, TypeScript, APIs, dashboards, monorepos
+Computer vision          annotation, inference, overlays, evaluation workflows
+Local AI / RAG           local LLMs, vector search, private knowledge tools
+Automation               desktop runtimes, packaging, operators, smoke tests
 ```
 
 ---
 
-## Projects I am proud of
+## Selected work
 
 <table>
   <tr>
     <td width="50%">
       <h3><a href="https://github.com/lhcaps/Vision">VisionFlow Studio</a></h3>
       <p>
-        A computer vision workbench for datasets, annotation, inference jobs, prediction overlays, evaluation reports, and exports.
+        A computer vision workbench for managing datasets, annotation, inference jobs, prediction overlays, evaluation reports, and exports.
       </p>
-      <p><b>Why I built it:</b> I wanted a serious project around the full computer vision workflow, not just a small model demo.</p>
+      <p>
+        This is the project where I am trying to connect the full CV workflow instead of stopping at a small model demo.
+      </p>
       <p><b>Stack:</b> TypeScript, React, Python, FastAPI, Prisma, Playwright, Vitest, Turborepo</p>
     </td>
     <td width="50%">
       <h3><a href="https://github.com/lhcaps/parkly">Parkly</a></h3>
       <p>
-        A gate operations monorepo with an API, web console, shared contracts, domain helpers, runbooks, and operational docs.
+        A gate operations monorepo with an API, web console, shared contracts, domain helpers, runbooks, and operator-facing workflows.
       </p>
-      <p><b>Why I built it:</b> I wanted to practice building a system that feels closer to real internal software: workflows, review queues, health feeds, and operator-facing tools.</p>
+      <p>
+        I built this to practice the kind of internal software that has to deal with state, decisions, reviews, health feeds, and operational docs.
+      </p>
       <p><b>Stack:</b> React, Vite, Express, Prisma, Zod, PostgreSQL, Flyway, pnpm workspace</p>
     </td>
   </tr>
@@ -48,17 +59,21 @@ What I care about: useful products, clean architecture, readable code, and hones
     <td width="50%">
       <h3><a href="https://github.com/lhcaps/TFT-CHATBOX">TFT Local Copilot</a></h3>
       <p>
-        A local assistant experiment using notes, static game data, vector search, and local LLM inference.
+        A local AI assistant experiment using private notes, static data, vector search, automation, and local model inference.
       </p>
-      <p><b>Why I built it:</b> I wanted to understand RAG by building something personal and useful instead of only following tutorials.</p>
+      <p>
+        The goal is to learn RAG by building something personal and useful, not just wiring together a chatbot example.
+      </p>
       <p><b>Stack:</b> React, FastAPI, Ollama, Supabase pgvector, n8n, Docker</p>
     </td>
     <td width="50%">
       <h3><a href="https://github.com/lhcaps/macro-gpo">Desktop Vision Automation Lab</a></h3>
       <p>
-        A Windows desktop automation project with a Tauri supervisor, Python backend, computer vision pipeline, packaging, and smoke tests.
+        A Windows desktop automation project with a Tauri supervisor, Python backend, computer vision pipeline, packaged builds, and smoke tests.
       </p>
-      <p><b>Why I built it:</b> I wanted to learn how desktop runtime, detection pipelines, and packaged builds work together.</p>
+      <p>
+        I use this project to learn how desktop apps, runtime monitoring, CV detection, packaging, and validation fit together.
+      </p>
       <p><b>Stack:</b> Python, Rust/Tauri, OpenCV, ONNX, PyInstaller</p>
     </td>
   </tr>
@@ -66,7 +81,20 @@ What I care about: useful products, clean architecture, readable code, and hones
 
 ---
 
-## What I usually work with
+## How I try to build
+
+I am still learning, but this is the standard I am aiming for:
+
+* Make the project easy to run locally
+* Keep the architecture understandable
+* Write docs that explain the real workflow, not just installation commands
+* Add tests or smoke checks where they actually reduce risk
+* Show the trade-offs instead of pretending everything is perfect
+* Polish the parts that make the project feel real: setup, errors, empty states, screenshots, and README quality
+
+---
+
+## Tools I reach for
 
 ### Frontend
 
@@ -94,21 +122,17 @@ What I care about: useful products, clean architecture, readable code, and hones
 
 ---
 
-## What I am improving right now
+## What I am improving next
 
-* Writing better READMEs and project docs
-* Making my projects easier to run locally
-* Adding screenshots, demos, and architecture diagrams
-* Turning experiments into portfolio projects that look finished
-* Getting better at full-stack architecture and AI tooling
+My GitHub is becoming a proper portfolio, one repo at a time.
 
----
+Current focus:
 
-## My current direction
-
-I am shaping my GitHub into a portfolio that shows how I think and build.
-
-Not every repo is perfect yet. Some are experiments, some are school or practice projects, and some are being cleaned up. The goal is to keep improving the signal: better docs, better structure, better demos, and projects that are useful enough to explain themselves.
+* Better READMEs for the main projects
+* Screenshots and short demos instead of only text
+* Cleaner local setup for each serious repo
+* Architecture diagrams for the projects with real workflows
+* More honest project notes: what works, what does not, what I would rebuild
 
 ---
 

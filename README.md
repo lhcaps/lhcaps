@@ -2,7 +2,7 @@
 
 # Hi, I'm Huy.
 
-**I build practical software around full-stack apps, computer vision, local AI, and automation.**
+**I build practical software around full-stack apps, clean architecture, computer vision, local AI, and automation.**
 
 Not everything here is perfect yet — but every serious repo is me trying to build something real, learn the hard parts, and make the next version cleaner.
 
@@ -23,6 +23,7 @@ Right now, I am mostly working around:
 
 ```txt
 Full-stack systems       React, TypeScript, APIs, dashboards, monorepos
+Clean architecture       boundaries, domain logic, contracts, maintainable structure
 Computer vision          annotation, inference, overlays, evaluation workflows
 Local AI / RAG           local LLMs, vector search, private knowledge tools
 Automation               desktop runtimes, packaging, operators, smoke tests
@@ -86,7 +87,7 @@ Automation               desktop runtimes, packaging, operators, smoke tests
 I am still learning, but this is the standard I am aiming for:
 
 * Make the project easy to run locally
-* Keep the architecture understandable
+* Keep the architecture clean, understandable, and easy to change
 * Write docs that explain the real workflow, not just installation commands
 * Add tests or smoke checks where they actually reduce risk
 * Show the trade-offs instead of pretending everything is perfect
@@ -132,6 +133,7 @@ Current focus:
 * Screenshots and short demos instead of only text
 * Cleaner local setup for each serious repo
 * Architecture diagrams for the projects with real workflows
+* Cleaner boundaries between UI, API, domain logic, database, and background workers
 * More honest project notes: what works, what does not, what I would rebuild
 
 ---

@@ -2,7 +2,9 @@
 
 # Hey, I'm Huy.
 
-### And i would kill for some jobs.
+### Looking for real work, not fake practice.
+
+I turn messy ideas into software that actually runs.
 
 Full-stack apps · Computer vision · Local AI · Desktop automation
 
@@ -18,9 +20,9 @@ Full-stack apps · Computer vision · Local AI · Desktop automation
 
 ## About me
 
-I like discovering new tools, new workflows, new problems — then trying to turn them into something real before the idea gets cold.
+I like discovering new tools, new workflows, new problems — then turning them into something real before the idea gets cold.
 
-A simple CRUD app is fine. But I get more interested when a project has moving parts: a real UI, an API, a database, background jobs, model inference, desktop runtime, packaging, tests, docs, and all the annoying little details that decide whether something feels real or fake.
+A simple CRUD app is fine. Nothing wrong with that. But I get more excited when a project has moving parts: a real UI, an API, a database, background jobs, model inference, desktop runtime, packaging, tests, docs, and all the small details that decide whether something feels real or fake.
 
 Most of my repos start with one question:
 
@@ -28,13 +30,17 @@ Most of my repos start with one question:
 
 Not perfectly. Properly.
 
-That question has pulled me into full-stack apps, computer vision, local AI, automation, desktop tooling, and a bunch of things I probably underestimated at first. Different projects, same lesson: software gets interesting when it has to survive past the first demo.
+That question has pulled me into full-stack apps, computer vision, local AI, automation, desktop tooling, and a few things I definitely underestimated at first.
 
-Some of my older code is rough. Good. That means there is a trail. I can look back and see the progress: cleaner structure, better boundaries, stronger READMEs, fewer random decisions, and more projects slowly becoming something serious.
+Different projects. Same lesson.
 
-I do not want a GitHub full of polished tutorial clones. I want a GitHub that shows motion.
+Software gets interesting when it has to survive past the first demo.
 
-Projects being built. Broken parts being fixed. First versions turning into better second versions. Ideas becoming something that is actually mine.
+Some of my older code is rough. That is not something I try to hide. It means there is a trail: cleaner structure, better boundaries, stronger READMEs, fewer random decisions, and more projects slowly becoming something serious.
+
+I do not want a GitHub full of polished tutorial clones.
+
+I want a GitHub that shows motion: projects being built, broken parts being fixed, first versions turning into better second versions, and ideas becoming something that is actually mine.
 
 ---
 
@@ -42,25 +48,31 @@ Projects being built. Broken parts being fixed. First versions turning into bett
 
 <table>
   <tr>
-    <td width="25%" valign="top">
-      <b>Full-stack systems</b>
-      <br />
-      <sub>React, TypeScript, APIs, dashboards, monorepos</sub>
+    <td width="50%" valign="top">
+      <h3>Full-stack systems</h3>
+      <p>
+        React, TypeScript, APIs, dashboards, monorepos, and product workflows that need more than a pretty screen.
+      </p>
     </td>
-    <td width="25%" valign="top">
-      <b>Backend architecture</b>
-      <br />
-      <sub>Express, FastAPI, Prisma, PostgreSQL, contracts</sub>
+    <td width="50%" valign="top">
+      <h3>Backend architecture</h3>
+      <p>
+        Express, FastAPI, Prisma, PostgreSQL, contracts, database design, and code that does not collapse when version two starts.
+      </p>
     </td>
-    <td width="25%" valign="top">
-      <b>Computer vision</b>
-      <br />
-      <sub>datasets, annotation, inference, overlays, evaluation</sub>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Computer vision</h3>
+      <p>
+        Datasets, annotation, inference, overlays, evaluation, reports, and the workflow around the model — not just the model.
+      </p>
     </td>
-    <td width="25%" valign="top">
-      <b>Local AI / automation</b>
-      <br />
-      <sub>RAG, local models, desktop apps, packaging, smoke tests</sub>
+    <td width="50%" valign="top">
+      <h3>Local AI / automation</h3>
+      <p>
+        RAG, local models, desktop apps, packaging, smoke tests, and tools that make local workflows feel useful.
+      </p>
     </td>
   </tr>
 </table>
@@ -77,7 +89,7 @@ Projects being built. Broken parts being fixed. First versions turning into bett
         A computer vision workbench for datasets, annotation, inference jobs, prediction overlays, evaluation reports, and exports.
       </p>
       <p>
-        This is my main project right now. The goal is to understand the full CV workflow, not just the model part: structured data, backend jobs, reports, tests, and screens that feel like a real tool.
+        This is my main project right now. It started from wanting to understand the full CV workflow, not just the model part. The goal is to build something that feels closer to a real tool: structured data, clear screens, backend jobs, tests, reports, and enough polish that another developer can understand the direction.
       </p>
       <p>
         <sub><b>Stack:</b> TypeScript · React · Python · FastAPI · Prisma · Playwright · Vitest · Turborepo</sub>
@@ -89,7 +101,7 @@ Projects being built. Broken parts being fixed. First versions turning into bett
         A gate operations monorepo with an API, web console, shared contracts, domain helpers, runbooks, and operator-facing workflows.
       </p>
       <p>
-        This repo is where I practiced internal software: state, review flows, health feeds, operational decisions, database structure, and docs that explain how the system should be used.
+        This repo is where I practiced building internal software: state, review flows, health feeds, operational decisions, database structure, and docs that explain how the system is supposed to work when someone actually uses it.
       </p>
       <p>
         <sub><b>Stack:</b> React · Vite · Express · Prisma · Zod · PostgreSQL · Flyway · pnpm workspace</sub>
@@ -104,7 +116,7 @@ Projects being built. Broken parts being fixed. First versions turning into bett
         A local AI assistant experiment using private notes, static data, vector search, automation, and local model inference.
       </p>
       <p>
-        The point is not to make another thin chatbot wrapper. This project is for learning RAG properly: ingestion, embeddings, retrieval, local models, useful context, and a UI that feels personal.
+        The point is not to make another thin chatbot wrapper. This project is for learning RAG properly: ingestion, embeddings, retrieval, local models, useful context, and a UI that feels personal instead of generic.
       </p>
       <p>
         <sub><b>Stack:</b> React · FastAPI · Ollama · Supabase pgvector · n8n · Docker</sub>
@@ -116,7 +128,7 @@ Projects being built. Broken parts being fixed. First versions turning into bett
         A Windows desktop automation project with a Tauri supervisor, Python backend, computer vision pipeline, packaged builds, and smoke tests.
       </p>
       <p>
-        This one is about the uncomfortable parts of desktop software: runtime monitoring, CV detection, app supervision, packaging, build size, and validation on a real machine.
+        This one is about the uncomfortable parts of desktop software: runtime monitoring, computer vision detection, app supervision, packaging, build size, and validation on a real machine.
       </p>
       <p>
         <sub><b>Stack:</b> Python · Rust/Tauri · OpenCV · ONNX · PyInstaller</sub>
@@ -131,15 +143,23 @@ Projects being built. Broken parts being fixed. First versions turning into bett
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <b>What I try to keep clean</b>
-      <br /><br />
-      Local setup, folder structure, API contracts, database shape, project boundaries, docs, errors, smoke tests, and the parts that make another developer not hate opening the repo.
+    <td width="33%" valign="top">
+      <h3>Make it run</h3>
+      <p>
+        A project should be easy to clone, set up, and understand. If nobody can run it, it is basically buried alive.
+      </p>
     </td>
-    <td width="50%" valign="top">
-      <b>What I try to avoid</b>
-      <br /><br />
-      Pretty READMEs hiding broken projects, tutorial clones with no workflow, code that only works on my machine, and architecture that collapses the moment the second version starts.
+    <td width="33%" valign="top">
+      <h3>Make it honest</h3>
+      <p>
+        I would rather show what works, what is missing, and what needs rebuilding than make a repo look bigger than it is.
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Make it cleaner</h3>
+      <p>
+        The second version always comes. Clean boundaries, docs, errors, and smoke tests make that version less painful.
+      </p>
     </td>
   </tr>
 </table>
@@ -179,24 +199,20 @@ Projects being built. Broken parts being fixed. First versions turning into bett
 
 <table>
   <tr>
-    <td width="25%" align="center">
-      <b>Real work</b>
-      <br />
-      <sub>not just fake practice</sub>
+    <td width="25%" align="center" valign="top">
+      <h3>Real work</h3>
+      <sub>not fake practice</sub>
     </td>
-    <td width="25%" align="center">
-      <b>Better projects</b>
-      <br />
+    <td width="25%" align="center" valign="top">
+      <h3>Better projects</h3>
       <sub>cleaner, clearer, harder to ignore</sub>
     </td>
-    <td width="25%" align="center">
-      <b>Something mine</b>
-      <br />
+    <td width="25%" align="center" valign="top">
+      <h3>Something mine</h3>
       <sub>built from rough idea to real system</sub>
     </td>
-    <td width="25%" align="center">
-      <b>Make my parents proud</b>
-      <br />
+    <td width="25%" align="center" valign="top">
+      <h3>Make my parents proud</h3>
       <sub>simple as that</sub>
     </td>
   </tr>
@@ -206,6 +222,6 @@ Projects being built. Broken parts being fixed. First versions turning into bett
 
 <div align="center">
 
-<b>We be coding gangs.</b>
+<b>Building things. Breaking things. Rebuilding them cleaner.</b>
 
 </div>
